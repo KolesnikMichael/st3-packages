@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BeautifyRuby",
+		"CTags",
+		"GitSavvy",
+		"JSON Reindent",
+		"JsonTree",
+		"Package Control",
+		"PlainTasks",
+		"Pretty Ruby",
+		"Ruby Completions",
+		"Shell Turtlestein",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeLinter",
+		"SublimeLinter-ruby"
+	]
+}

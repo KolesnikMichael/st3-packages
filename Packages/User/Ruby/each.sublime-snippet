@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+each do |${1:item}|
+  ${2}
+end]]></content>
+	<tabTrigger>each</tabTrigger>
+	<description>each do |item| … end</description>
+	<!-- <scope>source.ruby</scope> -->
+</snippet>

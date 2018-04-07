@@ -1,0 +1,59 @@
+[
+	{ "keys": ["ctrl+shift+alt+p"], "command": "prompt_select_workspace" },
+
+	{ "keys": ["alt+pageup"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+	{ "keys": ["alt+pagedown"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
+	{
+		"keys": ["ctrl+alt+home"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+left"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.33, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+right"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.66, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+pageup"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.33, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+	{
+		"keys": ["ctrl+alt+pagedown"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 0.66, 1.0],
+			"cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+		}
+	},
+
+	{"keys": ["shift+ctrl+alt+t"], "command": "subprocess_in_cwd", "args": {"cmd": ["conemu64.exe"]}}
+]
