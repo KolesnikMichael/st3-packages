@@ -1,4 +1,4 @@
-// Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
+//  Settings in here override those in "GitSavvy/GitSavvy.sublime-settings",
 
 {
   "inline_diff_auto_scroll": true,
